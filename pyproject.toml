@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geolintr"
+version = "1.0.0"
+description = "Detect and resolve ONS geography boundary changes and vintage mismatches in UK data"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "eritrouib" }]
+requires-python = ">=3.9"
+keywords = ["ons", "geography", "boundary", "lsoa", "msoa", "icb", "ccg", "uk", "geospatial", "nhs"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/eritrouib/geolintr"
+Repository = "https://github.com/eritrouib/geolintr"
+Issues = "https://github.com/eritrouib/geolintr/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
