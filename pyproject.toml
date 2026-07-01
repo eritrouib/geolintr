@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "geolintr"
-version = "1.0.0"
+version = "1.0.1"
 description = "Detect and resolve ONS geography boundary changes and vintage mismatches in UK data"
 readme = "README.md"
 license = { text = "MIT" }

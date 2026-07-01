@@ -154,7 +154,7 @@ for c in changes:
 
 If you work with UK open data, you have almost certainly joined datasets with mismatched boundaries without realising. The results look plausible, but the numbers are wrong. geolintr makes this class of error visible and fixable.
 
-Built by someone who does this every day at DHSC.
+Built by someone who hits this issue everyday.
 
 ---
 
